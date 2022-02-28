@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .container1
+        {
+            border: 5px solid black;
+            background-color: beige;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom:20px ;
+            width: 500px;
+            height: auto;
+            position:relative;
+            left:340px;
+            top:100px;
+        }
+
+        h2{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+   
+
+    <div class="container1">
+        <h2>Login Page</h2>
+        <form active="/action_page.php">
+            <label>First Name</label>
+            <input type="text" id="fName" name="firstName" placeholder="Your First Name">
+
+            <br><br>
+
+            <label>Surname</label>
+            <input type="text" id="sName" name="surName" placeholder="Your Surname">
+
+            <p id="gender">Please enter gender</p>
+            <input type="radio" id="male" name="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="male">
+            <label for="female">Female</label>
+
+            <br>
+
+            <p id="nameOrNot">Are you new</p>
+            <input type="radio" id="newPerson" name="newPerson">
+            <label for="newPerson">NEW</label>
+
+            <input type="radio" id="oldPerson" name="newPerson">
+            <label for="oldPerson">OLD</label>
+
+            <br><br>
+
+            <button type="submit" id="submit1">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
